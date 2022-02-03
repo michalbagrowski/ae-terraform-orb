@@ -9,7 +9,7 @@ parameters:
   to:
     type: string
     default: "World"
-    description: "Hello to whom hm... how this works?"
+    description: "Hello to whom hm... how this works ?"
 steps:
   - greet:
       to: << parameters.to >>
